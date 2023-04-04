@@ -1,0 +1,32 @@
+#Setup CIC RPC Node:
+## Crazy Internet Coin - CIC RPC node setup
+
+## Requirements: 
+Docker and Docker Compose
+Ubuntu / Ubuntu-like server
+
+git clone https://github.com/cicblockchain/rpcnode.git
+cd rpcnode
+
+You may need to give permissions to sh files. To do so, run: 
+chmod +x *.sh
+
+Run: 
+./pre-setup.sh 
+
+Then run: 
+./run.sh
+ ## if you receive errors, run the following command:
+  
+ 
+# docker-compose.yml file includes all the needed information. 
+You can adjust some variables if you are familiar with that.
+
+## Additional commands:
+./stop.sh: stops the node keeping its data.
+./resume.sh: resumes the node, it runs after stop.sh
+./restart.sh: restarts the node container
+./remove.sh: removes the node data completely
+./qlogs.sh: displays the node container logs
+./johnwickdocker.sh: destroys all docker related resources, starts clean
+
