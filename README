@@ -1,9 +1,12 @@
-  <h1><center>Setup CIC RPC Node:</h1>
-    <h2><center>Crazy Internet Coin - CIC RPC node setup</h2>
-    <h3>Requirements:</h3>
-    <h4>Docker and Docker Compose</h4>
-    <h4>Ubuntu / Ubuntu-like server</h4>
+## Requirements: 
+Docker and Docker Compose
+Ubuntu / Ubuntu-like server
 
+git clone https://github.com/cicblockchain/rpcnode.git
+cd rpcnode
+
+You may need to give permissions to sh files. To do so, run: 
+chmod +x *.sh
 git clone https://github.com/cicblockchain/rpcnode.git
 cd rpcnode
 
