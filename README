@@ -30,3 +30,9 @@ You can adjust some variables if you are familiar with that.
 ./qlogs.sh: displays the node container logs
 ./johnwickdocker.sh: destroys all docker related resources, starts clean
 
+To test if the node is working:
+1. Paste your server's IP with port 22000 in a web browser: 192.168.25.24:22000 
+   If a blank white page is displayed, your node is working fine. Else, you'll get an error. 
+2. In MetaMask network settings, place the address: http://your-ip:22000 for the RPC URL. 
+   If you connect to the network, it means you are set. But you may need to wait for synchronization to complete. 
+   During synchronization (first hour or so) your wallet balance will not reflect the correct value.
