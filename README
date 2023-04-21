@@ -7,19 +7,14 @@ cd rpcnode
 
 You may need to give permissions to sh files. To do so, run: 
 chmod +x *.sh
-git clone https://github.com/cicblockchain/rpcnode.git
-cd rpcnode
 
-You may need to give permissions to sh files. To do so, run: 
-chmod +x *.sh
-
-Run: 
-./pre-setup.sh 
+Depending on your Ubuntu version, run: 
+./pre-setup2004.sh 
+Or:
+./pre-setup2204.sh
 
 Then run: 
 ./run.sh
- ## if you receive errors, run the following command:
-  
  
 # docker-compose.yml file includes all the needed information. 
 You can adjust some variables if you are familiar with that.
