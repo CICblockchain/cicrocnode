@@ -14,7 +14,7 @@ That was the theory. but in reality bad actors are still able to practice scams 
 Accordingly, lack of command imposed by an authority leads to misbehaviour and results in harm. The solution is a decentralized public blockchain with decentralized law enforcement method. Here where CIC kicks in.
 
 ## Community DAO
-By utising the power of on-chain permissioned EVM with the flexibility of smart contracts, CIC team introduces the first permissioned public blockchain, with power in hands of the community which is allowed to propose votes, and vote to proposals. Examples of proposal may include:
+By utilising the power of on-chain permissioned EVM with the flexibility of smart contracts, CIC team introduces the first permissioned public blockchain, with power in hands of the community which is allowed to propose votes, and vote to proposals. Examples of proposal may include:
 
 * `Accounts` - like suspending a scammer wallet, halting a smart contract.
 * `Development` - such as chain settings, gas price, burning...
