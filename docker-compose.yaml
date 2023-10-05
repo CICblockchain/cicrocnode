@@ -31,7 +31,7 @@ x-quorum-def:
         --http.vhosts "*" \
         --http.addr 0.0.0.0 \
         --http.port 22000 \
-        --http.api admin,eth,debug,miner,net,txpool,personal,web3,ibft \
+        --http.api eth,debug,miner,net,txpool,personal,web3,ibft \
         --ws --ws.addr 0.0.0.0 --ws.port 32000 --ws.origins "*" \
         --ws.api eth,trace,debug,net,txpool,personal,web3,istanbul \
         --port 30303 --vmdebug --revertreason
@@ -44,16 +44,4 @@ services:
       - 32000:32000/tcp
       - 30303:30303
       - 9545:9545
-    networks:
-      cic-chain:
-        ipv4_address: 172.16.239.15
-
-networks:
-  cic-chain:
-    name: cic-chain
-    driver: bridge
-    ipam:
-      driver: default
-      config:
-      - subnet: 172.16.239.0/24
 
